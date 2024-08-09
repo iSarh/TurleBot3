@@ -64,3 +64,32 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 > sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control
 > ```
 ![turtlebot3](https://github.com/user-attachments/assets/25b82d4d-6df3-4fcb-81bc-1e9860d5e775)
+
+
+## 4. SLAM & Save the map
+
+Run gazebo using an identical command 
+
+```bash
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
+
+Create a new terminal and run the turtle3 slam node
+
+```bash
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+```
+
+![image](https://github.com/user-attachments/assets/45439afc-a4e3-4aac-80ac-c148a9f3bb75)
+
+Create a new terminal and run the Teleoperation Node
+
+```bash
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+Now move the turtle3 burger with your keyboard to create a map 
+
+![turtlewithslam - Made with Clipchamp](https://github.com/user-attachments/assets/bf8e6f2e-5589-4725-bf69-826c5dc17517)
