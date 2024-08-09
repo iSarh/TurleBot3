@@ -56,5 +56,11 @@ Create a new terminal and run the ``teleoperation`` node
 
 ```bash
 export TURTLEBOT3_MODEL=burger
-roslaunch turtlebot3_teleop turtlebot_teleop_key.launch
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+[!NOTE]
+> If the turtle not moving try the flowing command to make gazebo subscribe to cmd_vel.
+> ```bash
+> sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control
+> ```
+![turtlebot3](https://github.com/user-attachments/assets/25b82d4d-6df3-4fcb-81bc-1e9860d5e775)
