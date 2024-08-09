@@ -59,7 +59,7 @@ export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 > [!NOTE]
-> If the turtle not moving try the flowing command to make gazebo subscribe to cmd_vel.
+> If the turtle not moving try the following command to make the gazebo subscribe to cmd_vel.
 > ```bash
 > sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control
 > ```
