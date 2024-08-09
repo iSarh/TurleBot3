@@ -1,12 +1,16 @@
 # TurleBot3 ROS1_Noetic
 
-**TurtleBot3**
+This repository is about how to bring up the TurtleBot3 and perform navigation using ros1 noetic
 
-هو روبوت تعليمي مصمم لتعزيز التعلم والبحث في مجال الروبوتات والذكاء الاصطناعي. يتميز بتصميم مرن وسهل التخصيص، ويعمل على نظام التشغيل ROS (Robot Operating System). يتضمن TurtleBot3 مستشعرات مثل كاميرات ومستشعرات ليزر، مما يجعله مناسبًا لمشاريع مختلفة مثل الخرائط والتفاعل مع البيئة. بفضل حجمه الصغير وخفته.
+**What Is TurtleBot3**
 
-**المتطلبات**
+TurtleBot3 is an educational robot that supports learning and research in robotics and artificial intelligence. It features a flexible and customizable design and operates on the Robot Operating System (ROS). TurtleBot3 has sensors such as cameras and LIDAR, making it suitable for various projects like mapping and environmental interaction. Its compact and lightweight design makes it an excellent choice for students and researchers in robotics.
+ 
+**1. Setting Environment**
+
+***Requirement***
 - ubuntu 20.04
 - ROS Noetic
 - Gazebo
-  للمزيد من التعليمات حول تنزيل اذهب الى قسم Setup في موقع turtleBot3 :
-  https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup
+  
+for more detailed installation instructions please refer to the setup section of TurtleBot3 manual: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup
