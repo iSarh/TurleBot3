@@ -103,3 +103,30 @@ rosrun map_server map_saver -f ~/map
 ```
 ![image](https://github.com/user-attachments/assets/85dcbc36-4278-492b-9439-d0887c40e86a)
 
+## 5. launch Navigation
+
+In the previous SLAM section, TurtleBot3 World is used to creat a map. The same Gazebo environment will be used for Navigation.
+
+```bash
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
+Open a new terminal and run the Navigation node.
+
+```bash
+ export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
+```
+When turtle3 navigation is executed you can see the rivz with the map we created earlier
+
+![Screenshot 2024-08-10 001228](https://github.com/user-attachments/assets/57f56a17-6397-415c-ba03-0bf8802e025c)
+
+click the 2D pose to estimate button in rivz menu bar then click where the turtle3 is located and drag to the direction the robot is facing 
+
+finally, click the 2D navigation goal button and specify the destination and direction
+
+you will see the turtle3 moving toward the destination
+
+
+![turtle3 navigation](https://github.com/user-attachments/assets/f0a04075-89d8-4411-a98f-001020ea941b)
+
