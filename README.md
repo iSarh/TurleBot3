@@ -21,6 +21,8 @@ for more detailed installation instructions please refer to the setup section of
 
 this is the step of installing the required dependency packages for TurtleBot3
 
+Install ROS Packages:
+
 ```bash
 sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
   ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc \
@@ -31,3 +33,21 @@ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
   ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \
   ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
 ```
+
+Install TurtleBot3 Packages:
+
+```bash
+sudo apt install ros-noetic-dynamixel-sdk
+sudo apt install ros-noetic-turtlebot3-msgs
+sudo apt install ros-noetic-turtlebot3
+```
+**3. Operate gazebo & Teleop Turtlebot3**
+
+visit the simulation of the TurtleBot3 manual for more detailed: https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation
+
+```bash
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
+
+![image](https://github.com/user-attachments/assets/3e15cbe1-8f84-4f52-99b7-59d55b4ea484)
