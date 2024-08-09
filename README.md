@@ -93,3 +93,13 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 Now move the turtle3 burger with your keyboard to create a map 
 
 ![turtlewithslam - Made with Clipchamp](https://github.com/user-attachments/assets/bf8e6f2e-5589-4725-bf69-826c5dc17517)
+
+
+## 5. Save map 
+when you have finished creating the map create new terminal and save the map 
+
+```bash
+rosrun map_server map_saver -f ~/map
+```
+![image](https://github.com/user-attachments/assets/85dcbc36-4278-492b-9439-d0887c40e86a)
+
