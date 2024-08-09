@@ -51,3 +51,10 @@ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
 ![image](https://github.com/user-attachments/assets/3e15cbe1-8f84-4f52-99b7-59d55b4ea484)
+
+Create a new terminal and run the ``teleoperation`` node
+
+```bash
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_teleop turtlebot_teleop_key.launch
+```
