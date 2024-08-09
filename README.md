@@ -14,3 +14,6 @@ TurtleBot3 is an educational robot that supports learning and research in roboti
 - Gazebo
   
 for more detailed installation instructions please refer to the setup section of TurtleBot3 manual: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup
+
+![image](https://github.com/user-attachments/assets/41d313c3-f765-4447-bef4-559f8f56c538)
+
